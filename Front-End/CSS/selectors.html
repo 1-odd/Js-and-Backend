@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Selectors</title>
+
+    <style>
+        h1{
+            color: chocolate;
+            background-color: antiquewhite;
+            text-align: center;
+            
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            color: blueviolet;
+            background-color: beige;
+            
+        }
+
+        th{
+            padding:5px ;
+            margin : auto;
+            width: fit-content;
+            height:fit-content;
+            vertical-align: middle;
+            align-items:center;
+            justify-content:space-around;
+            
+            color: red;
+            
+        }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        color: rgb(34, 163, 39);
+    }
+
+    .Gr{
+        color: green;
+        text-align: center;
+        background-color: white;
+    }
+
+    .red{
+        color: red;
+        background-color: white;
+    }
+
+    #green{
+        color: green;
+        background-color: white;
+    }
+    #red{
+        color: red;
+        background-color: white;
+    }
+
+    .link{
+        color: skyblue;
+    }
+
+
+    #table,tr,td,th{
+        border : 1px solid black ;
+        color: black;
+        
+
+    }
+    caption{
+        border: 2px solid black;
+        color: black;
+        font-size: larger;
+        background-color: bisque;
+    }
+
+
+
+/* this is the exaple of Pseudo-class selscter
+here Hover is the spacial state of class
+when you put your crusor on button these
+all changes will apply automatically */
+
+    button:hover{
+        cursor: pointer;
+        color: blue;
+        background-color: aqua;
+        
+    }
+    .link:hover {
+        color: orangered;
+
+    }
+    
+    </style>
+
+
+
+</head>
+<body>
+
+    <h1>Simple Selectors</h1>
+    
+    <p>This is element selector</p>
+
+    <table>
+        <tr>
+           <th>
+            Month
+           </th>
+           <th>
+            Saving
+           </th>
+        </tr>
+        <tr>
+            <td>
+                January
+            </td>
+            <td>$200</td>
+        </tr>
+    </table>
+    <br>
+
+
+    <p>This is class Selecter</p>
+
+
+    <br>
+    <br>
+
+    <p class="Gr">ABCD</p>
+    <p class="Gr">PQRS</p>
+    <p class="red">XYZ</p>
+
+    <br>
+    <br>
+    <p>This is id Selector</p>
+
+    <p id="green"> This is one</p>
+    <p id="green"> this is two</p>
+    <p id="red"> this is thhree</p>
+
+    <br>
+
+
+    <h1>Pseudo-class slelector</h1>
+
+    <button>submit</button>
+    <br>
+    <br>
+
+    <a class="link" href="https://facebook.com">FaceBook</a>
+
+<br>
+<br>
+
+<h1>Multiple Selecter</h1>
+<br> 
+<br>
+
+<table id="table">
+    <caption>My Savings</caption>
+    <tr>
+       <th>
+        Month
+       </th>
+       <th>
+        Saving
+       </th>
+    </tr>
+    <tr>
+        <td>
+            January
+        </td>
+        <td>$200</td>
+    </tr>
+</table>
+<br>
+
+
+
+
+    
+</body>
+</html>

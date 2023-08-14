@@ -1,0 +1,45 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+
+  
+  /*  this is liner gradiant   */
+    background-image: linear-gradient(to bottom right,rgb(230, 214, 214),blue);
+    background-image: linear-gradient(orange,white,green);
+    
+
+}
+
+.mydiv{
+
+    margin: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    padding: 25px;
+
+    /*  this is radial gradiant */
+
+    background-image: radial-gradient(circle,black,yellow,red,black);
+    
+
+}
+
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+
+
+    background-image: conic-gradient(red, yellow, green, blue, black);
+
+
+
+}
+
+
