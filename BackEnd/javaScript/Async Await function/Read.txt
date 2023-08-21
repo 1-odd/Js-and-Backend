@@ -1,0 +1,6 @@
+we can declare a function async.
+if we declare a function async then it do some following task
+
+1. It allow the use of await keyword. It means we cant use await outside the async function.
+2. If we declare a function async the it allow us to consume a promises using await .
+3. An Async function always convert your return value to a promises.
